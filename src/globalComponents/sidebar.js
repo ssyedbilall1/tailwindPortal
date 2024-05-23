@@ -12,7 +12,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex">
+    <div className="p-0">
       <div
         className={`shadow-md shadow-black h-screen p-5 pt-8 rounded-lg ${
           open ? "w-72" : "w-20"

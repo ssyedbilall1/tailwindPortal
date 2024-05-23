@@ -6,8 +6,12 @@ const PrimaryLayout = () => {
   return (
     <>
       <Header />
-      <Sidebar />
-      <Outlet />
+      <div className="flex flex-row bg-gray-100">
+        <Sidebar />
+        <div className="container px-[30px] mt-[50px] ">
+          <Outlet />
+        </div>
+      </div>
     </>
   );
 };
