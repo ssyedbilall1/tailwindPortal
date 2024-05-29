@@ -13,14 +13,14 @@ const Tabs = ({ selectedTab, setSelectedTab }) => {
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex flex-row flex-wrap gap-4">
+      <div className="flex flex-row flex-wrap gap-1">
         {tabsnames.map((item, index) => (
           <div key={index} className="flex py-2">
             <div className="max-w-md flex flex-col gap-y-2 w-full">
-              <div className="p-1 rounded-xl flex justify-between items-center font-bold bg-white text-black">
+              <div className="p-1 rounded-t-xl flex justify-between items-center font-bold bg-white text-black">
                 <button
                   ref={index === 0 ? firstBtnRef : null}
-                  className={`rounded-t-xl  w-28 p-2 text-center  focus:bg-custom-header focus:text-white ${
+                  className={`rounded-t-xl  w-28 p-2 text-center ${
                     selectedTab === index ? "bg-custom-header text-white" : ""
                   }`}
                   onClick={() => setSelectedTab(index)}

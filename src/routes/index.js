@@ -11,6 +11,7 @@ import Home from "../pages/home";
 import Service from "../pages/service";
 import Help from "../pages/help";
 import Logout from "../pages/logout";
+import Profile from "../pages/profile";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<PrimaryLayout />}>
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="/service" element={<Service />} />
       <Route path="/help" element={<Help />} />
       <Route path="/logout" element={<Logout />} />
+      <Route path="/profile" element={<Profile />} />
     </Route>
   )
 );

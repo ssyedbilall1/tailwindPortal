@@ -29,11 +29,13 @@ const Header = () => {
             <span className="mr-2 text-xl font-semibold text-white">
               Hi, Admin
             </span>
-            <img
-              src={ProfileImg}
-              alt="Profile Img"
-              className="bg-cover w-9 border-solid border-white	border-2 rounded-full"
-            />
+            <NavLink to="/profile">
+              <img
+                src={ProfileImg}
+                alt="Profile Img"
+                className="bg-cover w-9 border-solid border-white	border-2 rounded-full"
+              />
+            </NavLink>
           </nav>
         </div>
       </header>
