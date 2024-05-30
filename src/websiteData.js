@@ -7,7 +7,7 @@ import Garbage from "../src/assets/garbage.png";
 import Sanitation from "../src/assets/sanitation.png";
 import Water from "../src/assets/water.png";
 const sidebarLinks = [
-  { title: "Home", icon: <FaHome />, link: "/" },
+  { title: "Home", icon: <FaHome />, link: "/home" },
   { title: "Services Status", icon: <FaClipboardList />, link: "service" },
   { title: "Help", icon: <IoMdHelpCircle />, link: "help" },
   { title: "Logout", icon: <IoLogOut />, link: "logout" },
